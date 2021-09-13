@@ -1,0 +1,99 @@
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+.background{
+    background-image: url('./images/pattern-background-desktop.svg');
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color:hsl(225, 100%, 98%);
+    width: 400px;
+    height: 550px;
+    border-radius:20px;
+    margin-top:2rem;
+}
+.card__imagem{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 400px;
+}
+.titulo{
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+}
+.frase{
+    text-align:center;
+    font-size: 15px;
+    color:hsl(223, 47%, 23%);
+    font-weight: 500;
+}
+.card__box{
+    display: flex;
+    margin:20px 35px 0;
+    margin-top: 1rem;
+    background-color: hsl(225, 100%, 96%);
+    border-radius: 10px;
+    padding: 5px;
+}
+.card__simbolo{
+    height: 30%;
+    padding-top: 0.7rem;
+    padding-left: 1rem;
+}
+.card__opcao{
+    font-size: 15px;
+    padding-left: 1.5rem;
+    color:hsl(223, 47%, 23%);
+    font-weight:500;
+}
+.card__valor{
+    padding-top:1px
+}
+.card__link{
+    padding-left: 4rem;
+    padding-top: 1.7rem;
+    font-size: 15px;
+    font-weight:500;
+    color:hsl(245, 75%, 52%);
+}
+.card__pagamento{
+   margin-left: 2.5rem;
+   margin-top: 1rem;
+   padding: 15px 90px;
+   border-radius: 10px;
+   border: none;
+   background-color:hsl(245, 75%, 52%);
+   color:hsl(225, 100%, 98%);
+   box-shadow: 0px 10px 15px hsl(225deg 100% 87%);
+   font-weight:500;
+   font-size:15px;
+}
+
+.card__cancela{
+    text-align:center;
+    color:hsl(223, 47%, 23%);
+    font-weight: 500;
+    font-size:15px;
+}
+
+@media (max-width:414px){
+    .background{
+        margin: 0px 2rem;
+    }
+    .card{
+        width: 350px;
+        height:530px;
+        margin-top: 1rem;
+    }
+    .card__imagem{
+        width:350px;
+    }
+    .card__link{
+        padding-left:2rem;
+    }
+    .card__pagamento{
+        padding: 15px 65px;
+    }
+}
